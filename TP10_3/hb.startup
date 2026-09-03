@@ -1,0 +1,6 @@
+ip a add 200.3.124.1/26 dev eth0
+ip r add default via 200.3.124.60
+ip link set dev eth0 mtu 1500
+
+
+ln -sf /shared/hosts etc/hosts

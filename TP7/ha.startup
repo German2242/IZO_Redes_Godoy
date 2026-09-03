@@ -1,0 +1,5 @@
+#IP Asignada al Host
+ip a add 170.16.128.1/17 dev eth0
+#Gateway
+ip r add default via 170.16.255.252
+
