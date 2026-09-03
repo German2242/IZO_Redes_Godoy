@@ -1,54 +1,3 @@
-ls
-nano ra.startup
-cd ..
-cd ..
-ls
-exit
-cd TP10_3
-ls
-cd shared
-nano hosts
-ls
-exit
-ls
-cd ..
-cd ..
-cd etc
-cd hosts
-nano hosts
-cd ..
-cd
-exit
-ls
-cd TP10_3
-cd shared
-ls
-nano hosts
-cd ..
-cat re.startup
-cd shared
-nano hosts
-exit 
-cd ..
-cd etc
-cat hosts
-cd ..
-cd ..
-.
-cd ..
-exit
-clear
-ls
-cd TP10_3
-cd shared
-nano hosts
-cd ..
-kathara lstart
-ls
-clear
-cd shared
-nano hosts
-cd ..
 kathara lstart
 kathara lclean
 kathara lstart
@@ -498,3 +447,54 @@ cd TP10_3
 for f in *.startup; do echo -e "\n=== $f ==="; cat "$f"; done
 clear
 for f in *.startup; do echo -e "\n=== $f ==="; cat "$f"; done
+ls
+ls
+cd TP5
+git init
+git remote add origin https://github.com/German2242/IZO_Redes_Godoy/tp5.git
+git remote set-url origin https://github.com/German2242/IZO_Redes_Godoy/tp5.git
+git remote -v
+git add .
+git commit -m "Entrega TP5"
+git branch -M main
+git push -u origin main
+git remote -v
+git add .
+git commit -m "Entrega TP5"
+git branch -M main
+git push -u origin main
+git remote set-url origin https://github.com/German2242/IZO_Redes_Godoy/tree/main/tp5.git
+git remote -v
+git add .
+git commit -m "Entrega TP5"
+git branch -M main
+git push -u origin main
+clear
+git remote set-url origin https://github.com/German2242/IZO_Redes_Godoy.git
+cd ..
+git remote set-url origin https://github.com/German2242/IZO_Redes_Godoy.git
+git init
+git remote add origin https://github.com/German2242/IZO_Redes_Godoy.git
+git remote set-url origin https://github.com/German2242/IZO_Redes_Godoy.git
+git add .
+cd TP5
+git rm --cached TP5
+git rm --cached
+ls
+git rm --cached ha.startup hb.startup lab.conf ra.startup rb.startup shared/
+git rm --cached ha.startup hb.startup lab.conf ra.startup rb.startup
+git rm --cached shared
+cd ..
+git add .
+clear
+ls
+git commit -m "Agregar TP5, TP10_1 y TP10_2"
+git push -u origin main
+git branch -M main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push -u origin main
